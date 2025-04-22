@@ -8,7 +8,7 @@ export default function ShowcaseSection() {
       {/* Example Image */}
       <div className="relative rounded-3xl overflow-hidden shadow-xl bg-gradient-to-br from-background/80 via-accent/30 to-primary/10 min-h-[18rem] aspect-[4/3] max-w-lg w-full flex items-center justify-center">
         <img
-          src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
           alt="Example input"
           className="w-full h-60 object-cover rounded-xl border border-white/60 shadow-lg transition-transform duration-300 hover:scale-105"
         />
@@ -29,7 +29,7 @@ export default function ShowcaseSection() {
             Generated Caption:
           </h3>
           <p className="text-lg md:text-[20px] font-semibold leading-snug text-foreground transition-colors duration-100 drop-shadow-sm">
-            &quot;A sleek gray laptop computer with illuminated keyboard displaying code on its screen in a dimly lit environment.&quot;
+            &quot;A MacBook with lines of code on its screen on a busy desk in a modern workspace.&quot;
           </p>
           {/* Sparkles */}
           <span className="absolute -top-3 -right-2 text-2xl text-yellow-400 animate-pulse pointer-events-none">✨</span>

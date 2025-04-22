@@ -33,14 +33,12 @@ export default function HeroSection() {
       {/* CTA Button */}
       <Link
         to="/upload"
-        className="group flex gap-3 items-center bg-gradient-to-r from-primary via-secondary to-rose-300 hover:from-secondary hover:to-primary shadow-2xl hover:scale-105 active:scale-98 transition-all duration-200 px-10 py-5 rounded-2xl text-white font-bold text-lg md:text-xl border-0 relative overflow-hidden animate-scale-in cursor-pointer"
+        className="group bg-gradient-to-r from-primary via-secondary to-rose-300 hover:from-secondary hover:to-primary shadow-2xl hover:scale-105 active:scale-98 transition-all duration-200 px-10 py-5 rounded-2xl text-white font-bold text-lg md:text-xl border-0 relative overflow-hidden animate-scale-in cursor-pointer flex items-center justify-center gap-3"
         style={{
           boxShadow: "0 8px 36px 4px rgba(139,93,246,0.18), 0 2px 8px rgba(126,105,171,0.18)",
         }}
       >
-        <span>
-          <ArrowRight className="inline mr-2 w-6 h-6 animate-slide-in-right group-hover:translate-x-2 transition-transform duration-200" />
-        </span>
+        <ArrowRight className="w-6 h-6 transition-transform duration-200 group-hover:translate-x-2" />
         <span>
           Get Started – <span className="font-extrabold underline decoration-wavy underline-offset-4">It&#39;s Free</span>
         </span>
